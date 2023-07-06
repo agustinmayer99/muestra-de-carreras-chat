@@ -67,7 +67,7 @@ export default {
        
         ...mapActions('userModule', ['login']),
          async getToken(){
-            fb.messaging.getToken({vapidKey: "BAcE-tMqzQymd3SVoFAw7FBw9ki83ZpDiXRSjPBuB2VmUjurR1407SzUCLB4TbTpKnDNZAKh5p_qxRXxbIYxh6s"})
+            fb.messaging.getToken({vapidKey: "BDXgHBNFdYS-4Hx148mb40YDsVM5VOUKoSX4muzet4WdkzA8Cnx1hlsDSGAa9vbmzUH9XrWoIJnkvO_a1cfjXo0"})
                 .then((currentToken) => {
                 if (currentToken) {
                     var data = {

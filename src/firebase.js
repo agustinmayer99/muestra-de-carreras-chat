@@ -6,14 +6,14 @@ import 'firebase/firebase-messaging'
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyCPeie3iIPNz57Mfg1wZE4wd6tAhHQzWBg",
-  authDomain: "chat2-10a6d.firebaseapp.com",
-  databaseURL: 'https://chat2-10a6d.firebaseio.com',
-  projectId: "chat2-10a6d",
-  storageBucket: "chat2-10a6d.appspot.com",
-  messagingSenderId: "698867735794",
-  appId: "1:698867735794:web:519495b1466438a558046b",
-  measurementId: "G-5CTV9KP3NE"
+  apiKey: "AIzaSyARdzdqMR02c5acVD0UkvC0mqNCLvblAAM",
+  authDomain: "chat-2023-branch2.firebaseapp.com",
+  databaseURL: 'https://chat-2023-branch2.firebaseio.com',
+  projectId: "chat-2023-branch2",
+  storageBucket: "chat-2023-branch2.appspot.com",
+  messagingSenderId: "862350220280",
+  appId: "1:862350220280:web:fa10534301f0fe9f21140d",
+  measurementId: "G-4SQS9V0QV3"
 };
 
 // Initialize Firebase
@@ -24,13 +24,13 @@ const fb = {
   messaging: firebase.messaging(),
   firestore: firebase.firestore(),
   async login() {
-      return firebase.auth().signInAnonymously()
-              .then(function(result) {
-                  return {success: true, data: result};
-              })
-              .catch(function(error){
-                  return {success: false, error: error.message};
-              });
+    return firebase.auth().signInAnonymously()
+      .then(function (result) {
+        return { success: true, data: result };
+      })
+      .catch(function (error) {
+        return { success: false, error: error.message };
+      });
   },
 
 }

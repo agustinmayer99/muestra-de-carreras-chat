@@ -6,14 +6,14 @@ importScripts('https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/8.9.0/firebase-messaging.js');
 
 firebase.initializeApp({
-  databaseURL: 'https://doe2-ef06f.firebaseio.com',
-  apiKey: "AIzaSyCPA2dn-gYwNONAm-x_IXfweHnUvPANfGM",
-  authDomain: "doe2-ef06f.firebaseapp.com",
-  projectId: "doe2-ef06f",
-  storageBucket: "doe2-ef06f.appspot.com",
-  messagingSenderId: "382189918236",
-  appId: "1:382189918236:web:4ede3b931bb7b3541fe7d9",
-  measurementId: "G-HTT9F94MMS"
+  apiKey: "AIzaSyCPBnCYNidoItPSAYq5wQNlBIIUz28Pfvo",
+  authDomain: "chat-2023-branchdoe.firebaseapp.com",
+  databaseURL: 'https://chat-2023-branchdoe.firebaseio.com',
+  projectId: "chat-2023-branchdoe",
+  storageBucket: "chat-2023-branchdoe.appspot.com",
+  messagingSenderId: "653693889799",
+  appId: "1:653693889799:web:e1cc49b53f73fff7b6a9a2",
+  measurementId: "G-D69KXKS86Y"
 });
 
 const messaging = firebase.messaging();

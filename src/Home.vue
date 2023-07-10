@@ -11,7 +11,7 @@
       <div class="d-flex align-center">
         <v-app-bar-nav-icon class="mr-2" @click.stop="leftdrawer = !leftdrawer"></v-app-bar-nav-icon>
         <v-img
-          :src="require('./assets/boton-texto-29.png')"
+          :src="require('./assets/boton31.png')"
           alt="Chat Muestra Carrera UNS"
           class="shrink mr-2 mt-2"
           contain

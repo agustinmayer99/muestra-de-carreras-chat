@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/prueba',
     name: 'Chat-Prueba',
-    props: { department: "CHAT_PRUEBA", name: "Chat para prueba" },
+    props: { department: "CHAT-PRUEBA", name: "Chat para prueba" },
     component: Home
   },
     

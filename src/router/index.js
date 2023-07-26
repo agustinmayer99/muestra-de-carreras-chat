@@ -17,7 +17,7 @@ const routes = [
   {
     path: '/at004',
     name: 'Chat-at004',
-    props: { department: "CHAT-at004", name: "Chat para at004" },
+    props: { department: "CHAT-at004", name: "Chat para Escuela de Teatro de Bahia Blanca AT004" },
     component: Home
   },
     ]
